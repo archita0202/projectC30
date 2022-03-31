@@ -64,8 +64,8 @@ function setup() {
   breakButton.class("breakbutton");
 
   //breakButton.mouseClicked(handleButtonPress);
-  //breakButton.mousePressed(handleButtonPress);
-  breakButton.mouse(handleButtonPress);
+  breakButton.mousePressed(handleButtonPress);
+  //breakButton.mouse(handleButtonPress);
   //breakButton.mousePressed(ButtonPress);
 
 
